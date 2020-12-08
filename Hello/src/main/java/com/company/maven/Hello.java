@@ -6,6 +6,7 @@ package com.company.maven;
  */
 public class Hello {
     public String sayHello(String name){
+        System.out.println("更新1");
         return "Hello "+name+"!";
     }
 }
